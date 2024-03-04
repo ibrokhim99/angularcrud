@@ -1,0 +1,129 @@
+{
+  "task": [
+    {
+      "id": "5",
+      "name": "asdqwe",
+      "taskname": "asdqwe",
+      "address": "asdqwe",
+      "type": "HARD",
+      "status": true
+    },
+    {
+      "id": "5",
+      "name": "asdqwe",
+      "taskname": "asdqwe",
+      "address": "asdqwe",
+      "type": "HARD",
+      "status": true
+    },
+    {
+      "id": "4",
+      "name": "eqwe",
+      "taskname": "qwe",
+      "address": "qwe",
+      "type": "HARD",
+      "status": true
+    },
+    {
+      "id": "4",
+      "name": "eqwe",
+      "taskname": "qwe",
+      "address": "qwe",
+      "type": "HARD",
+      "status": true
+    }
+  ],
+  "user": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "name": "Adminuser",
+      "email": "ad@in.com",
+      "gender": "male",
+      "role": "manager",
+      "status": true,
+      "id": "1"
+    },
+    {
+      "username": "testuser",
+      "password": "test",
+      "name": "NT User",
+      "email": "nt@in.com",
+      "gender": "female",
+      "role": "manager",
+      "status": true,
+      "id": "2"
+    },
+    {
+      "username": "ntuser",
+      "password": "test",
+      "name": "NT User 2",
+      "email": "nt1@in.com",
+      "gender": "male",
+      "role": "admin",
+      "status": true,
+      "id": "3"
+    },
+    {
+      "id": "1bf1",
+      "username": "news1",
+      "password": "123456",
+      "name": "ibrokhim  ismoliv",
+      "email": "asd@asd.com",
+      "gender": "male",
+      "role": "user",
+      "status": true
+    }
+  ],
+  "role": [
+    {
+      "code": "admin",
+      "name": "Admin",
+      "id": "6ce6"
+    },
+    {
+      "code": "manager",
+      "name": "Manager",
+      "id": "1384"
+    },
+    {
+      "code": "user",
+      "name": "User",
+      "id": "592f"
+    }
+  ],
+  "menu": [
+    {
+      "code": "task",
+      "Name": "Task",
+      "id": "2c65"
+    },
+    {
+      "code": "customer",
+      "Name": "Customer",
+      "id": "6efa"
+    },
+    {
+      "code": "user",
+      "Name": "User",
+      "id": "3a30"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "task",
+      "id": "4280"
+    },
+    {
+      "role": "manager",
+      "menu": "task",
+      "id": "0ec8"
+    },
+    {
+      "role": "user",
+      "menu": "task",
+      "id": "f43f"
+    }
+  ]
+}

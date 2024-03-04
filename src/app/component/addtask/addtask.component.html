@@ -1,0 +1,38 @@
+<form [formGroup]="taskform" (ngSubmit)="SaveTask()">
+<mat-card>
+    <mat-card-header>
+       <h1>{{title}}</h1>
+    </mat-card-header>
+    <mat-card-content>
+      
+      <mat-form-field>
+        
+        <mat-label>Name</mat-label>
+        <input formControlName="name" matInput>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Descirption</mat-label>
+        <textarea formControlName="address" matInput></textarea>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Task Name</mat-label>
+        <textarea formControlName="taskname" matInput></textarea>
+      </mat-form-field>
+      
+      <div class="div-50">
+        <mat-radio-group formControlName="type">
+          <mat-radio-button color="primary" value="HARD">HARD</mat-radio-button>
+          <mat-radio-button color="accent" value="MEDIUM">MEDIUM</mat-radio-button>
+          <mat-radio-button color="accent" value="EASY">EASY</mat-radio-button>
+        </mat-radio-group>
+      </div>
+      <!-- <div class="div-50">
+        <mat-checkbox formControlName="status">Is Active</mat-checkbox>
+      </div> -->
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" type="submit">Save</button>
+        <a (click)="ClosePopup()" mat-raised-button color="accent" >Close</a>
+    </mat-card-actions>
+</mat-card>
+</form>
